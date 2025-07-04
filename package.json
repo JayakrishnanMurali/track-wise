@@ -6,7 +6,10 @@
     "dev": "next dev",
     "build": "next build",
     "start": "next start",
-    "lint": "next lint"
+    "lint": "next lint",
+    "generate-types": "./scripts/generate-types.sh",
+    "generate-types:local": "./scripts/generate-types.sh --local",
+    "generate-types:ts": "tsx scripts/generate-types.ts"
   },
   "dependencies": {
     "@clerk/nextjs": "^6.12.12",
